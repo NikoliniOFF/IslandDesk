@@ -1,0 +1,41 @@
+name: Сообщить о баге
+description: Что-то в IslandDesk работает не так
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Спасибо, что сообщаете! Чем подробнее — тем быстрее получится исправить."
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось
+      placeholder: "Например: не показывается музыка из Яндекс Музыки"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить
+      placeholder: "1. …\n2. …"
+  - type: input
+    id: mode
+    attributes:
+      label: Что было на острове
+      description: Музыка, громкость, таймер, загрузка, уведомление… Какая программа играла или скачивала.
+      placeholder: "Музыка из Spotify, остров не раскрылся по щелчку"
+  - type: input
+    id: version
+    attributes:
+      label: Версия IslandDesk
+      description: Меню значка в трее → «О программе»
+      placeholder: "1.0.0"
+  - type: input
+    id: windows
+    attributes:
+      label: Windows, экран и видеокарта
+      placeholder: "Windows 11 23H2, два монитора 125% и 100%, NVIDIA RTX 3060"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Скриншот или журнал
+      description: "Перетащите сюда скриншот. Журнал: запустите `IslandDesk.exe --log`, он появится в `%APPDATA%\\IslandDesk\\islanddesk.log`."
