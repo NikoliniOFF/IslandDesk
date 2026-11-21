@@ -142,6 +142,20 @@
       <sub><a href="https://nikolinioff.github.io/HubDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/HubDesk">GitHub</a></sub>
     </td>
   </tr>
+  <tr>
+    <td width="96" align="center"><a href="https://nikolinioff.github.io/DockDesk/"><img src="docs/assets/apps/dockdesk.png" alt="DockDesk" width="72"></a></td>
+    <td>
+      <b><a href="https://nikolinioff.github.io/DockDesk/">DockDesk</a></b> — док для Windows, как в macOS: любимые программы внизу экрана, значки плавно растут под курсором.<br>
+      <sub><a href="https://nikolinioff.github.io/DockDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/DockDesk">GitHub</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="96" align="center"><a href="https://nikolinioff.github.io/SpotDesk/"><img src="docs/assets/apps/spotdesk.png" alt="SpotDesk" width="72"></a></td>
+    <td>
+      <b><a href="https://nikolinioff.github.io/SpotDesk/">SpotDesk</a></b> — быстрый поиск по Alt+Space в Windows, как Spotlight в macOS: программы, файлы, калькулятор и курсы валют.<br>
+      <sub><a href="https://nikolinioff.github.io/SpotDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/SpotDesk">GitHub</a></sub>
+    </td>
+  </tr>
   <!-- Новая программа: скопируйте строку <tr>…</tr> выше и поменяйте значок, название, описание и ссылки. -->
 </table>
 
