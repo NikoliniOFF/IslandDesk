@@ -10,7 +10,7 @@
 <meta property="og:site_name" content="IslandDesk">
 <meta property="og:url" content="https://nikolinioff.github.io/IslandDesk/">
 <meta property="og:title" content="IslandDesk для Windows — динамический остров, как на iPhone">
-<meta property="og:description" content="Чёрная пилюля вверху экрана сама показывает музыку, громкость, таймер, загрузки и уведомления — и плавно меняет форму. Бесплатно, около 900 КБ.">
+<meta property="og:description" content="Чёрная пилюля вверху экрана сама показывает музыку, громкость, таймер, загрузки и уведомления — и плавно меняет форму, а в покое — время, погоду и ближайшее событие. Бесплатно, около 1 МБ.">
 <meta property="og:locale" content="ru_RU">
 <meta property="og:image" content="https://nikolinioff.github.io/IslandDesk/assets/og-card.gif">
 <meta property="og:image:secure_url" content="https://nikolinioff.github.io/IslandDesk/assets/og-card.gif">
@@ -20,7 +20,7 @@
 <meta property="og:image:alt" content="IslandDesk — динамический остров для Windows: пилюля вверху экрана перетекает между музыкой, громкостью, таймером и уведомлением">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="IslandDesk для Windows — динамический остров, как на iPhone">
-<meta name="twitter:description" content="Чёрная пилюля вверху экрана сама показывает музыку, громкость, таймер, загрузки и уведомления — и плавно меняет форму. Бесплатно, около 900 КБ.">
+<meta name="twitter:description" content="Чёрная пилюля вверху экрана сама показывает музыку, громкость, таймер, загрузки и уведомления — и плавно меняет форму, а в покое — время, погоду и ближайшее событие. Бесплатно, около 1 МБ.">
 <meta name="twitter:image" content="https://nikolinioff.github.io/IslandDesk/assets/og-card.gif">
 <meta name="twitter:image:alt" content="IslandDesk — динамический остров для Windows: пилюля вверху экрана перетекает между музыкой, громкостью, таймером и уведомлением">
 <meta name="theme-color" content="#6c7cff">
@@ -87,8 +87,8 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
     <div>
       <img class="logo" src="assets/icon-256.png" alt="Значок IslandDesk">
       <h1>Динамический остров <span>для Windows</span></h1>
-      <p class="lead">IslandDesk — чёрная пилюля вверху экрана, как на iPhone. Она сама показывает музыку, громкость, таймер, загрузки и уведомления — и плавно перетекает из формы в форму.</p>
-      <div class="facts"><span class="pill">💸 <b>Бесплатно</b>, без Pro</span><span class="pill">🚫 Без рекламы и слежки</span><span class="pill">🪶 <b>~900 КБ</b>, 0 % CPU в простое</span></div>
+      <p class="lead">IslandDesk — чёрная пилюля вверху экрана, как на iPhone. Она сама показывает музыку, громкость, таймер, загрузки и уведомления — и плавно перетекает из формы в форму. А в спокойные минуты — время, погоду и ближайшее событие календаря.</p>
+      <div class="facts"><span class="pill">💸 <b>Бесплатно</b>, без Pro</span><span class="pill">🚫 Без рекламы и слежки</span><span class="pill">🪶 <b>~1 МБ</b>, почти 0 % CPU в простое</span></div>
       <a class="btn dl" href="https://github.com/NikoliniOFF/IslandDesk/releases/latest/download/IslandDesk-win64.zip" download="IslandDesk-win64.zip">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>
         Скачать IslandDesk
@@ -100,6 +100,19 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
       <div class="shot"><img src="assets/og-card.gif" alt="IslandDesk — динамический остров для Windows: пилюля вверху экрана перетекает между музыкой, громкостью, таймером и уведомлением" width="1200" height="630"></div>
     </div>
   </div>
+
+  <section id="new">
+    <h2>Новое в 1.2</h2><p class="sub">Пилюля больше не пустует · <a href="https://github.com/NikoliniOFF/IslandDesk/releases/tag/v1.2.0">что нового в 1.2.0</a></p>
+    <div class="shot" style="max-width:960px;margin:0 auto 22px"><img src="assets/media/new-120.gif" alt="Часы и погода в пилюле, напоминание о событии с волной по краю, капля таймера рядом с островом" loading="lazy" width="960" height="272"></div>
+    <div class="grid">
+      <div class="card"><div class="ic">🕒</div><h3>Часы в пилюле</h3><p>Когда ничего не происходит — время в формате Windows, при наведении — дата. Рядом 1–2 значка: погода, событие, заряд, курсы ЦБ или «до Нового года N дней», по желанию — по кругу.</p></div>
+      <div class="card"><div class="ic">🌤️</div><h3>Погода</h3><p>Город — поиском в настройках. Значок и температура раз в 45 минут через Open-Meteo, без ключей и без определения места по IP.</p></div>
+      <div class="card"><div class="ic">📅</div><h3>Календарь</h3><p>«Планёрка через 15 мин» из ссылки или файла .ics (Google, Яндекс, Outlook) и напоминание за 10 минут.</p></div>
+      <div class="card"><div class="ic">🏠</div><h3>Домашний экран</h3><p>Щелчок по спокойной пилюле — крупные часы и карточки: погода, событие, курсы и нагрузка процессора, памяти и сети (считается, только пока открыто).</p></div>
+      <div class="card"><div class="ic">✨</div><h3>Красивые анимации</h3><p>Пружинистое раскрытие, капля, которая отделяется и сливается обратно, волна по краю при уведомлении, «дыхание» под музыку. Выключены анимации в Windows — выключены и тут.</p></div>
+      <div class="card"><div class="ic">📏</div><h3>Размер острова</h3><p>90, 100, 115 или 130 % — под ваш монитор. И у каждой новинки свой переключатель.</p></div>
+    </div>
+  </section>
 
   <section id="features">
     <h2>Что умеет</h2><p class="sub">Бесплатно · без установки · без рекламы · обновляется сама</p>
@@ -116,7 +129,7 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
       <div class="card"><div class="ic">📋</div><h3>Буфер обмена</h3><p>Скопировали — остров коротко покажет что: текст, картинку или файлы. Во вкладке «Буфер» последние 8 текстов, щелчок копирует снова. Только в памяти, на диск не пишется; то, что менеджеры паролей помечают как секретное, не читается.</p></div>
       <div class="card"><div class="ic">📥</div><h3>Полка файлов</h3><p>Бросьте файлы на остров — они полежат на полке (до 12). Оттуда их можно утащить в любое окно, открыть или показать в папке. Хранятся ссылки, а не копии; при выходе полка очищается.</p></div>
       <div class="card"><div class="ic">🫧</div><h3>Живой, но тактичный</h3><p>Пружинная анимация с частотой монитора, второе занятие — кружок рядом. Не забирает фокус, не мешает щелчкам, прячется в играх и фильмах.</p></div>
-      <div class="card"><div class="ic">🪶</div><h3>Лёгкий</h3><p>exe около 900 КБ, без установщика. В простое не опрашивает систему и не тратит процессор — просыпается только по событиям Windows.</p></div>
+      <div class="card"><div class="ic">🪶</div><h3>Лёгкий</h3><p>exe около 1 МБ, без установщика. В простое не опрашивает систему и почти не тратит процессор — просыпается по событиям Windows, а с часами ещё раз в минуту.</p></div>
       <div class="card"><div class="ic">⚙️</div><h3>Всё выключается</h3><p>У каждой функции свой переключатель. Можно прятать пилюлю, когда ничего не происходит, и выбрать монитор.</p></div>
       <div class="card"><div class="ic">🌗</div><h3>Светлая и тёмная тема</h3><p>Окно настроек следует теме Windows. Обновления — «Автоматически», «Спрашивать» или «Не проверять».</p></div>
     </div>
@@ -125,6 +138,12 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
   <section id="gallery">
     <h2>Как это выглядит</h2><p class="sub">Остров в разных состояниях — тот же код отрисовки, что и в программе</p>
     <div class="gal">
+      <figure><div class="shot"><img src="assets/media/idle-weather.jpg" alt="Погода, время и заряд в пилюле" loading="lazy" width="1440" height="500"></div><figcaption>Погода, время и заряд в спокойной пилюле</figcaption></figure>
+      <figure><div class="shot"><img src="assets/media/idle-event.jpg" alt="Ближайшее событие календаря" loading="lazy" width="1440" height="500"></div><figcaption>Ближайшее событие из календаря .ics</figcaption></figure>
+      <figure><div class="shot"><img src="assets/media/home-cards.jpg" alt="Домашний экран с карточками" loading="lazy" width="1440" height="840"></div><figcaption>Домашний экран: погода, событие, курсы, нагрузка</figcaption></figure>
+      <figure><div class="shot"><img src="assets/media/remind.jpg" alt="Напоминание за 10 минут" loading="lazy" width="1440" height="500"></div><figcaption>Напоминание за 10 минут до события</figcaption></figure>
+      <figure><div class="shot"><img src="assets/media/idle-rates.jpg" alt="Курсы ЦБ в пилюле" loading="lazy" width="1440" height="500"></div><figcaption>Курсы доллара и евро ЦБ РФ</figcaption></figure>
+      <figure><div class="shot"><img src="assets/media/idle-hover.jpg" alt="Дата при наведении" loading="lazy" width="1440" height="500"></div><figcaption>Навели курсор — видна дата</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/music-open.jpg" alt="Большой плеер — щелчок по острову" loading="lazy" width="1200" height="440"></div><figcaption>Большой плеер — щелчок по острову</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/home.jpg" alt="Часы, заряд и быстрые таймеры" loading="lazy" width="1200" height="440"></div><figcaption>Часы, заряд и быстрые таймеры</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/volume.jpg" alt="Громкость, а рядом — музыка" loading="lazy" width="1200" height="440"></div><figcaption>Громкость, а рядом — музыка</figcaption></figure>
@@ -143,6 +162,7 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
       <figure><div class="shot"><img src="assets/media/drop-zones.jpg" alt="Две зоны: на полку или в PeekDesk" loading="lazy" width="1200" height="440"></div><figcaption>Две зоны: на полку или в PeekDesk</figcaption></figure>
     </div>
     <div class="gal3">
+      <figure><div class="shot"><img src="assets/media/settings-idle.jpg" alt="Настройки: пилюля, когда ничего не происходит" loading="lazy" width="595" height="625"></div><figcaption>Часы, погода и календарь — каждое отдельно</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/settings-clip.jpg" alt="Окно настроек: таймер, буфер обмена и полка" loading="lazy" width="592" height="726"></div><figcaption>Настройки: у каждой функции свой переключатель</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/settings-dark.jpg" alt="Настройки в тёмной теме" loading="lazy" width="592" height="726"></div><figcaption>Тёмная тема</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/about.jpg" alt="О программе" loading="lazy" width="592" height="726"></div><figcaption>О программе и обновления</figcaption></figure>
@@ -178,12 +198,13 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
   <section id="faq">
     <h2>Вопросы</h2>
     <details><summary>Почему SmartScreen предупреждает?</summary><p>Программа новая и пока не подписана платным сертификатом. Скачивайте IslandDesk только со страницы выпусков на GitHub — рядом с архивом лежит файл .sha256 с контрольной суммой.</p></details>
-    <details><summary>Не будет ли тормозить компьютер?</summary><p>Нет. В простое IslandDesk ничего не опрашивает: остров перерисовывается, только когда что-то изменилось, а анимация идёт лишь во время смены формы. Эквалайзер работает, только пока играет музыка; таймер обновляется раз в секунду, только пока идёт.</p></details>
+    <details><summary>Не будет ли тормозить компьютер?</summary><p>Нет. В простое IslandDesk ничего не опрашивает: остров перерисовывается, только когда что-то изменилось (с часами — раз в минуту), а анимация идёт лишь во время смены формы. Нагрузка процессора и сети считается, только пока открыт домашний экран. Эквалайзер работает, только пока играет музыка; таймер обновляется раз в секунду, только пока идёт.</p></details>
     <details><summary>Какие плееры показываются?</summary><p>Все, что сообщают Windows о музыке (те же, что видны в системной плашке громкости): Spotify, Яндекс Музыка, браузеры (YouTube, ВК Музыка и др.), «Медиаплеер» Windows и другие.</p></details>
     <details><summary>Остров закрывает часть окна?</summary><p>Он маленький и сидит у самого верхнего края. Щелчки рядом с пилюлей проходят в окно под ней. В полноэкранных играх и видео остров прячется сам, а в настройках можно прятать его, когда ничего не происходит.</p></details>
+    <details><summary>Почему календарь через .ics, а не «Календарь» Windows?</summary><p>Календарь Windows отдаёт события только программам из Microsoft Store с особым «паспортом» пакета, а IslandDesk — обычный exe без установщика. Поэтому он читает календарь по ссылке .ics: в Google это «Секретный адрес в формате iCal», в Яндексе — «Экспорт», в Outlook — «Опубликовать календарь» → ICS. Подойдёт и файл .ics на диске.</p></details>
     <details><summary>Есть платная версия?</summary><p>Нет и не планируется: IslandDesk бесплатный целиком, без Pro-функций, рекламы и подписок.</p></details>
     <details><summary>Буфер обмена где-то сохраняется?</summary><p>Нет. Последние 8 текстов живут только в памяти IslandDesk и пропадают при выходе или выключении функции; на диск и в интернет они не попадают. Содержимое, которое программы помечают как секретное (так делают менеджеры паролей), IslandDesk не читает. Буфер и подсказку «Скопировано» можно выключить по отдельности.</p></details>
-    <details><summary>Программа что-нибудь отправляет?</summary><p>Нет. IslandDesk ничего не собирает. В интернет он обращается лишь к GitHub — вскоре после запуска и раз в 12 часов, чтобы узнать, не вышла ли новая версия (это можно выключить), а при открытии настроек обновляет список «Другие программы от Nikolini». На этом сайте нет счётчиков и аналитики.</p></details>
+    <details><summary>Программа что-нибудь отправляет?</summary><p>Нет. IslandDesk ничего не собирает. В интернет он обращается к GitHub — вскоре после запуска и раз в 12 часов, чтобы узнать, не вышла ли новая версия (это можно выключить), а при открытии настроек обновляет список «Другие программы от Nikolini». Если вы включили погоду, курсы или календарь по ссылке — ещё к Open-Meteo (координаты выбранного города), cbr-xml-daily.ru (курсы ЦБ РФ) и к адресу вашего календаря. На этом сайте нет счётчиков и аналитики.</p></details>
   </section>
 
   <section id="apps">
